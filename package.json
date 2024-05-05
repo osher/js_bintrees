@@ -18,6 +18,11 @@
     "lib": "lib"
   },
   "main": "./index.js",
+  "files": [
+    "lib",
+    "dist",
+    "index.js"
+  ],
   "scripts": {
     "test": "nodeunit ./test/test_*.js && jshint lib/*.js index.js"
   },
